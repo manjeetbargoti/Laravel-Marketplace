@@ -458,7 +458,7 @@
                             <div class="breadcrumbs-inner">
                                 <h1 class="breadcrumbs-title">Shopping Cart</h1>
                                 <ul class="breadcrumb-list">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="{{ url('/') }}">Home</a></li>
                                     <li>Shopping Cart</li>
                                 </ul>
                             </div>
