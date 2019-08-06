@@ -9,28 +9,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/icon/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/img/icon/favicon.png') }}">
 
     <!-- All CSS Files -->
     <!-- Bootstrap fremwork main css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
     <!-- Nivo-slider css -->
-    <link rel="stylesheet" href="lib/css/nivo-slider.css">
+    <link rel="stylesheet" href="{{ asset('frontend/lib/css/nivo-slider.css') }}">
     <!-- This core.css file contents all plugings css file. -->
-    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="{{ asset('frontend/css/core.css') }}">
     <!-- Theme shortcodes/elements style -->
-    <link rel="stylesheet" href="css/shortcode/shortcodes.css">
+    <link rel="stylesheet" href="{{ asset('frontend/css/shortcode/shortcodes.css') }}">
     <!-- Theme main style -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ asset('frontend/style.css') }}">
     <!-- Responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="{{ asset('frontend/css/responsive.css') }}">
     <!-- Template color css -->
-    <link href="css/color/color-core.css" data-style="styles" rel="stylesheet">
+    <link href="{{ asset('frontend/css/color/color-core.css') }}" data-style="styles" rel="stylesheet">
     <!-- User style -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="{{ asset('frontend/css/custom.css') }}">
 
     <!-- Modernizr JS -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="{{ asset('frontend/js/vendor/modernizr-2.8.3.min.js') }}"></script>
 </head>
 
 <body>
@@ -56,19 +56,19 @@
                             <div class="top-link clearfix">
                                 <ul class="link f-right">
                                     <li>
-                                        <a href="my-account.html">
+                                        <a href="{{ url('/my-account') }}">
                                             <i class="zmdi zmdi-account"></i>
                                             My Account
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="wishlist.html">
+                                        <a href="{{ url('/wishlist') }}">
                                             <i class="zmdi zmdi-favorite"></i>
                                             Wish List (0)
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="login.html">
+                                        <a href="{{ url('/login') }}">
                                             <i class="zmdi zmdi-lock"></i>
                                             Login
                                         </a>
@@ -87,145 +87,145 @@
                             <!-- logo -->
                             <div class="col-md-2 col-sm-6 col-xs-12">
                                 <div class="logo">
-                                    <a href="index.html">4in1 Telecom</a>
+                                    <a href="{{ url('/') }}">4in1 Telecom</a>
                                 </div>
                             </div>
                             <!-- primary-menu -->
                             <div class="col-md-8 hidden-sm hidden-xs">
                                 <nav id="primary-menu">
                                     <ul class="main-menu text-center">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li class="mega-parent"><a href="shop.html">Products</a>
+                                        <li><a href="{{ url('/') }}">Home</a></li>
+                                        <li class="mega-parent"><a href="{{ url('/shop') }}">Products</a>
                                             <div class="mega-menu-area clearfix">
                                                 <div class="mega-menu-link f-left">
                                                     <ul class="single-mega-item">
                                                         <li class="menu-title">Smart Phone</li>
                                                         <li>
-                                                            <a href="#">All Mobile Phones</a>
+                                                            <a href="{{ url('/#') }}">All Mobile Phones</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Smart phones</a>
+                                                            <a href="{{ url('/#') }}">Smart phones</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Android Mobiles</a>
+                                                            <a href="{{ url('/#') }}">Android Mobiles</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Windows Mobiles</a>
+                                                            <a href="{{ url('/#') }}">Windows Mobiles</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Refurbished Mobiles</a>
+                                                            <a href="{{ url('/#') }}">Refurbished Mobiles</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">All Mobile Accessories</a>
+                                                            <a href="{{ url('/#') }}">All Mobile Accessories</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Cases & Covers</a>
+                                                            <a href="{{ url('/#') }}">Cases & Covers</a>
                                                         </li>
                                                     </ul>
                                                     <ul class="single-mega-item">
                                                         <li class="menu-title">Note Book</li>
                                                         <li>
-                                                            <a href="">All Note Books</a>
+                                                            <a href="{{ url('/#') }}">All Note Books</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Smart notebooks</a>
+                                                            <a href="{{ url('/#') }}">Smart notebooks</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Android Note Book</a>
+                                                            <a href="{{ url('/#') }}">Android Note Book</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Windows Note Books</a>
+                                                            <a href="{{ url('/#') }}">Windows Note Books</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Refurbished Note Books</a>
+                                                            <a href="{{ url('/#') }}">Refurbished Note Books</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Note Books Accessories</a>
+                                                            <a href="{{ url('/#') }}">Note Books Accessories</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Cases & Covers</a>
+                                                            <a href="{{ url('/#') }}">Cases & Covers</a>
                                                         </li>
                                                     </ul>
                                                     <ul class="single-mega-item">
                                                         <li class="menu-title">Tablets</li>
                                                         <li>
-                                                            <a href="">All Tablets</a>
+                                                            <a href=""{{ url('/#') }}>All Tablets</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Smart tablets</a>
+                                                            <a href="{{ url('/#') }}">Smart tablets</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Android Tablets</a>
+                                                            <a href="{{ url('/#') }}">Android Tablets</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Windows Tablets</a>
+                                                            <a href="{{ url('/#') }}">Windows Tablets</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Refurbished Tablets</a>
+                                                            <a href="{{ url('/#') }}">Refurbished Tablets</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Tablets Accessories</a>
+                                                            <a href="{{ url('/#') }}">Tablets Accessories</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Cases & Covers</a>
+                                                            <a href="{{ url('/#') }}">Cases & Covers</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="mega-menu-photo f-left">
-                                                    <a href="#">
-                                                        <img src="img/mega-menu/1.jpg" alt="mega menu image">
+                                                    <a href="{{ url('/#') }}">
+                                                        <img src="{{ asset('frontend/img/mega-menu/1.jpg') }}" alt="mega menu image">
                                                     </a>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="mega-parent"><a href="#">Pages</a>
+                                        <li class="mega-parent"><a href="{{ url('/#') }}">Pages</a>
                                             <div class="mega-menu-area mega-menu-area-2 clearfix">
                                                 <div class="mega-menu-link mega-menu-link-2  f-left">
                                                     <ul class="single-mega-item">
                                                         <li class="menu-title">page list</li>
                                                         <li>
-                                                            <a href="shop.html">Shop</a>
+                                                            <a href="{{ url('/shop') }}">Shop</a>
                                                         </li>
                                                         <li>
-                                                            <a href="single-product.html">Single Product</a>
+                                                            <a href="{{ url('/single-product') }}">Single Product</a>
                                                         </li>
                                                     </ul>
                                                     <ul class="single-mega-item">
                                                         <li class="menu-title">page list</li>
                                                         <li>
-                                                            <a href="cart.html">Shopping Cart</a>
+                                                            <a href="{{ url('/cart') }}">Shopping Cart</a>
                                                         </li>
                                                         <li>
-                                                            <a href="wishlist.html">Wishlist</a>
+                                                            <a href="{{ url('/wishlist') }}">Wishlist</a>
                                                         </li>
                                                         <li>
-                                                            <a href="checkout.html">Checkout</a>
+                                                            <a href="{{ url('/checkout') }}">Checkout</a>
                                                         </li>
                                                         <li>
-                                                            <a href="order.html">Order</a>
+                                                            <a href="{{ url('/order') }}">Order</a>
                                                         </li>
                                                         <li>
-                                                            <a href="login.html">Login</a>
+                                                            <a href="{{ url('/login') }}">Login</a>
                                                         </li>
                                                         <li>
-                                                            <a href="My-account.html">My Account</a>
+                                                            <a href="{{ url('/my-account') }}">My Account</a>
                                                         </li>
                                                         <li>
-                                                            <a href="about.html">About us</a>
+                                                            <a href="{{ url('/about') }}">About us</a>
                                                         </li>
                                                         <li>
-                                                            <a href="404.html">404</a>
+                                                            <a href="{{ url('/4o4') }}">404</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li><a href="blog.html">Blog</a>
+                                        <li><a href="{{ url('/blog') }}">Blog</a>
                                             <ul class="dropdwn">
-                                                <li><a href="blog-left-sidebar.html">Dropdown Repeat</a>
+                                                <li><a href="{{ url('/blog-left-sidebar') }}">Dropdown Repeat</a>
                                                     <ul class="dropdwn-repeat">
                                                         <li>
-                                                            <a href="blog.html">Blog</a>
+                                                            <a href="{{ url('/blog') }}">Blog</a>
                                                         </li>
                                                         <li>
                                                             <a href="s">Blog Details</a>
@@ -233,18 +233,18 @@
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="blog.html">Blog</a>
+                                                    <a href="{{ url('/blog') }}">Blog</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single-blog.html">Blog Details</a>
+                                                    <a href="{{ url('/single-blog') }}">Blog Details</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="about.html">About us</a>
+                                            <a href="{{ url('/about') }}">About us</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a href="{{ url('/contact') }}">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -272,7 +272,7 @@
                                     <div class="total-cart f-left">
                                         <div class="total-cart-in">
                                             <div class="cart-toggler">
-                                                <a href="#">
+                                                <a href="{{ url('/#') }}">
                                                     <span class="cart-quantity">02</span><br>
                                                     <span class="cart-icon">
                                                         <i class="zmdi zmdi-shopping-cart-plus"></i>
@@ -290,18 +290,18 @@
                                                         <!-- single-cart -->
                                                         <div class="single-cart clearfix">
                                                             <div class="cart-img f-left">
-                                                                <a href="#">
-                                                                    <img src="img/cart/1.jpg" alt="Cart Product" />
+                                                                <a href="{{ url('/#') }}">
+                                                                    <img src="{{ asset('frontend/img/cart/1.jpg') }}" alt="Cart Product" />
                                                                 </a>
                                                                 <div class="del-icon">
-                                                                    <a href="#">
+                                                                    <a href="{{ url('/#') }}">
                                                                         <i class="zmdi zmdi-close"></i>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="cart-info f-left">
                                                                 <h6 class="text-capitalize">
-                                                                    <a href="#">Dummy Product Name</a>
+                                                                    <a href="{{ url('/#') }}">Dummy Product Name</a>
                                                                 </h6>
                                                                 <p>
                                                                     <span>Brand <strong>:</strong></span>Brand Name
@@ -317,18 +317,18 @@
                                                         <!-- single-cart -->
                                                         <div class="single-cart clearfix">
                                                             <div class="cart-img f-left">
-                                                                <a href="#">
-                                                                    <img src="img/cart/1.jpg" alt="Cart Product" />
+                                                                <a href="{{ url('/#') }}">
+                                                                    <img src="{{ asset('frontend/img/cart/1.jpg') }}" alt="Cart Product" />
                                                                 </a>
                                                                 <div class="del-icon">
-                                                                    <a href="#">
+                                                                    <a href="{{ url('/#') }}">
                                                                         <i class="zmdi zmdi-close"></i>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="cart-info f-left">
                                                                 <h6 class="text-capitalize">
-                                                                    <a href="#">Dummy Product Name</a>
+                                                                    <a href="{{ url('/#') }}">Dummy Product Name</a>
                                                                 </h6>
                                                                 <p>
                                                                     <span>Brand <strong>:</strong></span>Brand Name
@@ -354,14 +354,14 @@
                                                 <li>
                                                     <div class="top-cart-inner view-cart">
                                                         <h4 class="text-uppercase">
-                                                            <a href="#">View cart</a>
+                                                            <a href="{{ url('/#') }}">View cart</a>
                                                         </h4>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="top-cart-inner check-out">
                                                         <h4 class="text-uppercase">
-                                                            <a href="#">Check out</a>
+                                                            <a href="{{ url('/#') }}">Check out</a>
                                                         </h4>
                                                     </div>
                                                 </li>
@@ -385,58 +385,58 @@
                         <div class="mobile-menu">
                             <nav id="dropdown">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="{{ url('/') }}">Home</a></li>
                                     <li>
-                                        <a href="shop.html">Products</a>
+                                        <a href="{{ url('/shop') }}">Products</a>
                                     </li>
-                                    <li><a href="#">Pages</a>
+                                    <li><a href="{{ url('/#') }}">Pages</a>
                                         <ul>
                                             <li>
-                                                <a href="shop.html">Shop</a>
+                                                <a href="{{ url('/shop') }}">Shop</a>
                                             <li>
-                                                <a href="single-product.html">Single Product</a>
+                                                <a href="{{ url('/single-product') }}">Single Product</a>
                                             </li>
                                             <li>
-                                                <a href="cart.html">Shopping Cart</a>
+                                                <a href="{{ url('/cart') }}">Shopping Cart</a>
                                             </li>
                                             <li>
-                                                <a href="wishlist.html">Wishlist</a>
+                                                <a href="{{ url('/wishlist') }}">Wishlist</a>
                                             </li>
                                             <li>
-                                                <a href="checkout.html">Checkout</a>
+                                                <a href="{{ url('/checkout') }}">Checkout</a>
                                             </li>
                                             <li>
-                                                <a href="order.html">Order</a>
+                                                <a href="{{ url('/order') }}">Order</a>
                                             </li>
                                             <li>
-                                                <a href="login.html">Login</a>
+                                                <a href="{{ url('/login') }}">Login</a>
                                             </li>
                                             <li>
-                                                <a href="My-account.html">My Account</a>
+                                                <a href="{{ url('/my-account') }}">My Account</a>
                                             </li>
                                             <li>
-                                                <a href="about.html">About us</a>
+                                                <a href="{{ url('/about') }}">About us</a>
                                             </li>
                                             <li>
-                                                <a href="404.html">404</a>
+                                                <a href="{{ url('/404') }}">404</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">Blog</a>
+                                    <li><a href="{{ url('/blog') }}">Blog</a>
                                         <ul>
                                             <li>
-                                                <a href="blog.html">Blog</a>
+                                                <a href="{{ url('/blog') }}">Blog</a>
                                             </li>
                                             <li>
-                                                <a href="single-blog.html">Blog Details</a>
+                                                <a href="{{ url('/single-blog') }}">Blog Details</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="about.html">About Us</a>
+                                        <a href="{{ url('/about') }}">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a href="{{ url('/contact') }}">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -460,7 +460,7 @@
                                 <h2 class="slider2-title-3"></h2>
                             </div>
                             <div class="slider-button wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.5s">
-                                <a href="#" class="button extra-small button-white">
+                                <a href="{{ url('/#') }}" class="button extra-small button-white">
                                     <span class="text-uppercase">Buy now</span>
                                 </a>
                             </div>        
@@ -492,9 +492,9 @@
                             <!-- single-brand-product start -->
                             <div class="col-xs-12">
                                 <div class="single-brand-product">
-                                    <a href="single-product.html"><img src="img/product/5.jpg" alt=""></a>
+                                    <a href="{{ url('/single-product') }}"><img src="{{ asset('frontend/img/product/5.jpg') }}" alt=""></a>
                                     <h3 class="brand-title text-gray">
-                                        <a href="#">Brand name</a>
+                                        <a href="{{ url('/#') }}">Brand name</a>
                                     </h3>
                                 </div>
                             </div>
@@ -502,9 +502,9 @@
                             <!-- single-brand-product start -->
                             <div class="col-xs-12">
                                 <div class="single-brand-product">
-                                    <a href="single-product.html"><img src="img/product/6.jpg" alt=""></a>
+                                    <a href="{{ url('/single-product') }}"><img src="{{ asset('frontend/img/product/6.jpg') }}" alt=""></a>
                                     <h3 class="brand-title text-gray">
-                                        <a href="#">Brand name</a>
+                                        <a href="{{ url('/#') }}">Brand name</a>
                                     </h3>
                                 </div>
                             </div>
@@ -512,9 +512,9 @@
                             <!-- single-brand-product start -->
                             <div class="col-xs-12">
                                 <div class="single-brand-product">
-                                    <a href="single-product.html"><img src="img/product/7.jpg" alt=""></a>
+                                    <a href="{{ url('/single-product') }}"><img src="{{ asset('frontend/img/product/7.jpg') }}" alt=""></a>
                                     <h3 class="brand-title text-gray">
-                                        <a href="#">Brand name</a>
+                                        <a href="{{ url('/#') }}">Brand name</a>
                                     </h3>
                                 </div>
                             </div>
@@ -522,9 +522,9 @@
                             <!-- single-brand-product start -->
                             <div class="col-xs-12">
                                 <div class="single-brand-product">
-                                    <a href="single-product.html"><img src="img/product/8.jpg" alt=""></a>
+                                    <a href="{{ url('/single-product') }}"><img src="{{ asset('frontend/img/product/8.jpg') }}" alt=""></a>
                                     <h3 class="brand-title text-gray">
-                                        <a href="#">Brand name</a>
+                                        <a href="{{ url('/#') }}">Brand name</a>
                                     </h3>
                                 </div>
                             </div>
@@ -532,9 +532,9 @@
                             <!-- single-brand-product start -->
                             <div class="col-xs-12">
                                 <div class="single-brand-product">
-                                    <a href="single-product.html"><img src="img/product/8.jpg" alt=""></a>
+                                    <a href="{{ url('/single-product') }}"><img src="{{ asset('frontend/img/product/8.jpg') }}" alt=""></a>
                                     <h3 class="brand-title text-gray">
-                                        <a href="#">Brand name</a>
+                                        <a href="{{ url('/#') }}">Brand name</a>
                                     </h3>
                                 </div>
                             </div>
@@ -562,34 +562,34 @@
                             <div class="col-xs-12">
                                 <div class="product-item">
                                     <div class="product-img">
-                                        <a href="single-product.html">
-                                            <img src="img/product/1.jpg" alt=""/>
+                                        <a href="{{ url('/single-product') }}">
+                                            <img src="{{ asset('frontend/img/product/1.jpg') }}" alt=""/>
                                         </a>
                                     </div>
                                     <div class="product-info">
                                         <h6 class="product-title">
-                                            <a href="single-product.html">Product Name</a>
+                                            <a href="{{ url('/single-product') }}">Product Name</a>
                                         </h6>
                                         <div class="pro-rating">
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                         </div>
                                         <h3 class="pro-price">$ 869.00</h3>
                                         <ul class="action-button">
                                             <li>
-                                                <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -600,34 +600,34 @@
                             <div class="col-xs-12">
                                 <div class="product-item">
                                     <div class="product-img">
-                                        <a href="single-product.html">
-                                            <img src="img/product/2.jpg" alt=""/>
+                                        <a href="{{ url('/single-product') }}">
+                                            <img src="{{ asset('frontend/img/product/2.jpg') }}" alt=""/>
                                         </a>
                                     </div>
                                     <div class="product-info">
                                         <h6 class="product-title">
-                                            <a href="single-product.html">Product Name</a>
+                                            <a href="{{ url('/single-product') }}">Product Name</a>
                                         </h6>
                                         <div class="pro-rating">
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                         </div>
                                         <h3 class="pro-price">$ 869.00</h3>
                                         <ul class="action-button">
                                             <li>
-                                                <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -638,34 +638,34 @@
                             <div class="col-xs-12">
                                 <div class="product-item">
                                     <div class="product-img">
-                                        <a href="single-product.html">
-                                            <img src="img/product/3.jpg" alt=""/>
+                                        <a href="{{ url('/single-product') }}">
+                                            <img src="{{ asset('frontend/img/product/3.jpg') }}" alt=""/>
                                         </a>
                                     </div>
                                     <div class="product-info">
                                         <h6 class="product-title">
-                                            <a href="single-product.html">Product Name</a>
+                                            <a href="{{ url('/single-product') }}">Product Name</a>
                                         </h6>
                                         <div class="pro-rating">
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                         </div>
                                         <h3 class="pro-price">$ 869.00</h3>
                                         <ul class="action-button">
                                             <li>
-                                                <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -676,34 +676,34 @@
                             <div class="col-xs-12">
                                 <div class="product-item">
                                     <div class="product-img">
-                                        <a href="single-product.html">
-                                            <img src="img/product/4.jpg" alt=""/>
+                                        <a href="{{ url('/single-product') }}">
+                                            <img src="{{ asset('frontend/img/product/4.jpg') }}" alt=""/>
                                         </a>
                                     </div>
                                     <div class="product-info">
                                         <h6 class="product-title">
-                                            <a href="single-product.html">Product Name</a>
+                                            <a href="{{ url('/single-product') }}">Product Name</a>
                                         </h6>
                                         <div class="pro-rating">
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                         </div>
                                         <h3 class="pro-price">$ 869.00</h3>
                                         <ul class="action-button">
                                             <li>
-                                                <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -714,34 +714,34 @@
                             <div class="col-xs-12">
                                 <div class="product-item">
                                     <div class="product-img">
-                                        <a href="single-product.html">
-                                            <img src="img/product/4.jpg" alt=""/>
+                                        <a href="{{ url('/single-product') }}">
+                                            <img src="{{ asset('frontend/img/product/4.jpg') }}" alt=""/>
                                         </a>
                                     </div>
                                     <div class="product-info">
                                         <h6 class="product-title">
-                                            <a href="single-product.html">Product Name</a>
+                                            <a href="{{ url('/single-product') }}">Product Name</a>
                                         </h6>
                                         <div class="pro-rating">
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                         </div>
                                         <h3 class="pro-price">$ 869.00</h3>
                                         <ul class="action-button">
                                             <li>
-                                                <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                             </li>
                                             <li>
-                                                <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -762,15 +762,15 @@
                         <div class="col-md-8 col-sm-12 col-xs-12">
                             <div class="up-comming-pro gray-bg clearfix">
                                 <div class="up-comming-pro-img f-left">
-                                    <a href="#">
-                                        <img src="img/up-comming/1.jpg" alt="">
+                                    <a href="{{ url('/#') }}">
+                                        <img src="{{ asset('frontend/img/up-comming/1.jpg') }}" alt="">
                                     </a>
                                 </div>
                                 <div class="up-comming-pro-info f-left">
-                                    <h3><a href="#">Dummy Product Name</a></h3>
+                                    <h3><a href="{{ url('/#') }}">Dummy Product Name</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitest, sed do eiusmod tempor incididunt ut labore et dolores top magna aliqua. Ut enim ad minim veniam, quis nostrud exer citation ullamco laboris nisi ut aliquip ex ea commodo consequat. laborum. </p>
                                     <div class="up-comming-time">
-                                        <div data-countdown="2017/02/02"></div>
+                                        <div data-countdown="2020/02/02"></div>
                                     </div>
                                 </div>
                             </div>
@@ -781,10 +781,10 @@
                                     <span>$ 896.00</span>
                                 </div>
                                 <div class="banner-img">
-                                    <a href="#"><img src="img/banner/1.jpg" alt=""></a>
+                                    <a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/banner/1.jpg') }}" alt=""></a>
                                 </div>
                                 <div class="banner-info">
-                                    <h3><a href="#">Product Name</a></h3>
+                                    <h3><a href="{{ url('/#') }}">Product Name</a></h3>
                                     <ul class="banner-featured-list">
                                         <li>
                                             <i class="zmdi zmdi-check"></i><span>Lorem ipsum dolor</span>
@@ -824,10 +824,10 @@
                             <div class="pro-tab-menu text-right">
                                 <!-- Nav tabs -->
                                 <ul class="" >
-                                    <li class="active"><a href="#popular-product" data-toggle="tab">Popular Products </a></li>
-                                    <li><a href="#new-arrival" data-toggle="tab">New Arrival</a></li>
-                                    <li><a href="#best-seller"  data-toggle="tab">Best Seller</a></li>
-                                    <li><a href="#special-offer"  data-toggle="tab">Special Offer</a></li>
+                                    <li class="active"><a href="{{ url('/#popular-product') }}" data-toggle="tab">Popular Products </a></li>
+                                    <li><a href="{{ url('/#new-arrival') }}" data-toggle="tab">New Arrival</a></li>
+                                    <li><a href="{{ url('/#best-seller') }}"  data-toggle="tab">Best Seller</a></li>
+                                    <li><a href="{{ url('/#special-offer') }}"  data-toggle="tab">Special Offer</a></li>
                                 </ul>
                             </div>                       
                         </div>
@@ -842,34 +842,34 @@
                                     <div class="col-md-3 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/7.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/7.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="{{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                                 </div>
                                                 <h3 class="pro-price">$ 869.00</h3>
                                                 <ul class="action-button">
                                                     <li>
-                                                        <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                        <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -880,34 +880,34 @@
                                     <div class="col-md-3 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/2.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/2.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="{{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                                 </div>
                                                 <h3 class="pro-price">$ 869.00</h3>
                                                 <ul class="action-button">
                                                     <li>
-                                                        <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                        <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -918,34 +918,34 @@
                                     <div class="col-md-3 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/9.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/9.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="{{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                                 </div>
                                                 <h3 class="pro-price">$ 869.00</h3>
                                                 <ul class="action-button">
                                                     <li>
-                                                        <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                        <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -956,34 +956,34 @@
                                     <div class="col-md-3 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/4.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/4.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="{{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                                 </div>
                                                 <h3 class="pro-price">$ 869.00</h3>
                                                 <ul class="action-button">
                                                     <li>
-                                                        <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                        <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -994,34 +994,34 @@
                                     <div class="col-md-3 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/10.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/10.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="{{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                                 </div>
                                                 <h3 class="pro-price">$ 869.00</h3>
                                                 <ul class="action-button">
                                                     <li>
-                                                        <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                        <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1032,34 +1032,34 @@
                                     <div class="col-md-3 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/11.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/11.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="{{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                                 </div>
                                                 <h3 class="pro-price">$ 869.00</h3>
                                                 <ul class="action-button">
                                                     <li>
-                                                        <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                        <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1070,34 +1070,34 @@
                                     <div class="col-md-3 hidden-sm col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/8.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/8.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="{{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                                 </div>
                                                 <h3 class="pro-price">$ 869.00</h3>
                                                 <ul class="action-button">
                                                     <li>
-                                                        <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                        <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1108,34 +1108,34 @@
                                     <div class="col-md-3 hidden-sm col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/12.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/12.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="{{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                                 </div>
                                                 <h3 class="pro-price">$ 869.00</h3>
                                                 <ul class="action-button">
                                                     <li>
-                                                        <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                        <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1152,34 +1152,34 @@
                                     <div class="col-md-3 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/1.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/1.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="{{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                                 </div>
                                                 <h3 class="pro-price">$ 869.00</h3>
                                                 <ul class="action-button">
                                                     <li>
-                                                        <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                        <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1190,34 +1190,34 @@
                                     <div class="col-md-3 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/3.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/3.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="{{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                                 </div>
                                                 <h3 class="pro-price">$ 869.00</h3>
                                                 <ul class="action-button">
                                                     <li>
-                                                        <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                        <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1228,34 +1228,34 @@
                                     <div class="col-md-3 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/5.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/5.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="{{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                                    <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-half"></i></a>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-star-outline"></i></a>
                                                 </div>
                                                 <h3 class="pro-price">$ 869.00</h3>
                                                 <ul class="action-button">
                                                     <li>
-                                                        <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                                        <a href="{{ url('/#') }}" data-toggle="modal"  data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Compare"><i class="zmdi zmdi-refresh"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
+                                                        <a href="{{ url('/#') }}" title="Add to cart"><i class="zmdi zmdi-shopping-cart-plus"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1266,13 +1266,13 @@
                                     <div class="col-md-3 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="single-product.html">
-                                                    <img src="img/product/6.jpg" alt=""/>
+                                                <a href="{{ url('/single-product') }}">
+                                                    <img src="{{ asset('frontend/img/product/6.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="single-product.html">Product Name</a>
+                                                    <a href="single-product.html {{ url('/single-product') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
                                                     <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
