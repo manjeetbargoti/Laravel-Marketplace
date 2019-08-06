@@ -9,7 +9,7 @@ s<!doctype html>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/icon/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/img/icon/favicon.png') }}">
 
     <!-- All CSS Files -->
     <!-- Bootstrap fremwork main css -->
@@ -1140,18 +1140,18 @@ s<!doctype html>
     <!-- Body main wrapper end -->
 
 
-    <!-- Placed JS at the end of the document so the pages load faster -->
+     <!-- Placed JS at the end of the document so the pages load faster -->
 
     <!-- jquery latest version -->
-    <script src="js/vendor/jquery-3.1.1.min.js"></script>
+    <script src="{{ asset('frontend/js/vendor/jquery-3.1.1.min.js') }}"></script>
     <!-- Bootstrap framework js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{ asset('frontend/js/bootstrap.min.js' }}"></script>
     <!-- jquery.nivo.slider js -->
-    <script src="lib/js/jquery.nivo.slider.js"></script>
+    <script src="{{ asset('frontend/lib/js/jquery.nivo.slider.js') }}"></script>
     <!-- All js plugins included in this file. -->
-    <script src="js/plugins.js"></script>
+    <script src="{{ asset('frontend/js/plugins.js') }}"></script>
     <!-- Main js file that contents all jQuery plugins activation. -->
-    <script src="js/main.js"></script>
+    <script src="{{ asset('frontend/js/main.js') }}"></script>
 
 </body>
 
