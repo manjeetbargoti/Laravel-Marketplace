@@ -154,7 +154,7 @@
                                                             <a href="{{ url('/#') }}">All Tablets</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Smart tablets</a>
+                                                            <a href="{{ url('/#') }}">Smart tablets</a>
                                                         </li>
                                                         <li>
                                                             <a href="{{ url('/#') }}">Android Tablets</a>
