@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Subash || Login</title>
+    <title>4in1 Telecom || Login</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -56,19 +56,19 @@
                             <div class="top-link clearfix">
                                 <ul class="link f-right">
                                     <li>
-                                        <a href="my-account.html">
+                                        <a href="{{ url('/my-account') }}">
                                             <i class="zmdi zmdi-account"></i>
                                             My Account
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="wishlist.html">
+                                        <a href="{{ url('/wishlist') }}">
                                             <i class="zmdi zmdi-favorite"></i>
                                             Wish List (0)
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="login.html">
+                                        <a href="{{ url('/login') }}">
                                             <i class="zmdi zmdi-lock"></i>
                                             Login
                                         </a>
@@ -87,8 +87,8 @@
                             <!-- logo -->
                             <div class="col-md-2 col-sm-6 col-xs-12">
                                 <div class="logo">
-                                    <a href="index.html">
-                                        <img src="img/logo/logo.png" alt="main logo">
+                                    <a href="{{ url('/') }}">
+                                        <img src="{{ asset('frontend/img/logo/logo.png') }}" alt="main logo">
                                     </a>
                                 </div>
                             </div>
@@ -96,86 +96,86 @@
                             <div class="col-md-8 hidden-sm hidden-xs">
                                 <nav id="primary-menu">
                                     <ul class="main-menu text-center">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li class="mega-parent"><a href="shop.html">Products</a>
+                                        <li><a href="{{ url('/') }}">Home</a></li>
+                                        <li class="mega-parent"><a href="{{ url('/shop') }}">Products</a>
                                             <div class="mega-menu-area clearfix">
                                                 <div class="mega-menu-link f-left">
                                                     <ul class="single-mega-item">
                                                         <li class="menu-title">Smart Phone</li>
                                                         <li>
-                                                            <a href="#">All Mobile Phones</a>
+                                                            <a href="{{ url('/#') }}">All Mobile Phones</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Smart phones</a>
+                                                            <a href="{{ url('/#') }}">Smart phones</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Android Mobiles</a>
+                                                            <a href="{{ url('/#') }}">Android Mobiles</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Windows Mobiles</a>
+                                                            <a href="{{ url('/#') }}">Windows Mobiles</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Refurbished Mobiles</a>
+                                                            <a href="{{ url('/#') }}">Refurbished Mobiles</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">All Mobile Accessories</a>
+                                                            <a href="{{ url('/#') }}">All Mobile Accessories</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Cases & Covers</a>
+                                                            <a href="{{ url('/#') }}">Cases & Covers</a>
                                                         </li>
                                                     </ul>
                                                     <ul class="single-mega-item">
                                                         <li class="menu-title">Note Book</li>
                                                         <li>
-                                                            <a href="">All Note Books</a>
+                                                            <a href="{{ url('/#') }}">All Note Books</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Smart notebooks</a>
+                                                            <a href="{{ url('/#') }}">Smart notebooks</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Android Note Book</a>
+                                                            <a href="{{ url('/#') }}">Android Note Book</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Windows Note Books</a>
+                                                            <a href="{{ url('/#') }}">Windows Note Books</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Refurbished Note Books</a>
+                                                            <a href="{{ url('/#') }}">Refurbished Note Books</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Note Books Accessories</a>
+                                                            <a href="{{ url('/#') }}">Note Books Accessories</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Cases & Covers</a>
+                                                            <a href="{{ url('/#') }}">Cases & Covers</a>
                                                         </li>
                                                     </ul>
                                                     <ul class="single-mega-item">
                                                         <li class="menu-title">Tablets</li>
                                                         <li>
-                                                            <a href="">All Tablets</a>
+                                                            <a href="{{ url('/#') }}">All Tablets</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Smart tablets</a>
+                                                            <a href="{{ url('/#') }}">Smart tablets</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Android Tablets</a>
+                                                            <a href="{{ url('/#') }}">Android Tablets</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Windows Tablets</a>
+                                                            <a href="{{ url('/#') }}">Windows Tablets</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Refurbished Tablets</a>
+                                                            <a href="{{ url('/#') }}">Refurbished Tablets</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Tablets Accessories</a>
+                                                            <a href="{{ url('/#') }}">Tablets Accessories</a>
                                                         </li>
                                                         <li>
-                                                            <a href="">Cases & Covers</a>
+                                                            <a href="{{ url('/#') }}">Cases & Covers</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="mega-menu-photo f-left">
-                                                    <a href="#">
-                                                        <img src="img/mega-menu/1.jpg" alt="mega menu image">
+                                                    <a href="{{ url('/#') }}">
+                                                        <img src="{{ asset('frontend/img/mega-menu/1.jpg') }}" alt="mega menu image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -186,48 +186,48 @@
                                                     <ul class="single-mega-item">
                                                         <li class="menu-title">page list</li>
                                                         <li>
-                                                            <a href="shop.html">Shop</a>
+                                                            <a href="{{ url('/shop') }}">Shop</a>
                                                         </li>
                                                         <li>
-                                                            <a href="single-product.html">Single Product</a>
+                                                            <a href="{{ url('/single-product') }}">Single Product</a>
                                                         </li>
                                                     </ul>
                                                     <ul class="single-mega-item">
                                                         <li class="menu-title">page list</li>
                                                         <li>
-                                                            <a href="cart.html">Shopping Cart</a>
+                                                            <a href="{{ url('/cart') }}">Shopping Cart</a>
                                                         </li>
                                                         <li>
-                                                            <a href="wishlist.html">Wishlist</a>
+                                                            <a href="{{ url('/wishlist') }}">Wishlist</a>
                                                         </li>
                                                         <li>
-                                                            <a href="checkout.html">Checkout</a>
+                                                            <a href="{{ url('/checkout') }}">Checkout</a>
                                                         </li>
                                                         <li>
-                                                            <a href="order.html">Order</a>
+                                                            <a href="{{ url('/order') }}">Order</a>
                                                         </li>
                                                         <li>
-                                                            <a href="login.html">Login</a>
+                                                            <a href="{{ url('/login') }}">Login</a>
                                                         </li>
                                                         <li>
-                                                            <a href="My-account.html">My Account</a>
+                                                            <a href="{{ url('/My-account') }}">My Account</a>
                                                         </li>
                                                         <li>
-                                                            <a href="about.html">About us</a>
+                                                            <a href="{{ url('/about') }}">About us</a>
                                                         </li>
                                                         <li>
-                                                            <a href="404.html">404</a>
+                                                            <a href="{{ url('/404') }}">404</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li><a href="blog.html">Blog</a>
+                                        <li><a href="{{ url('/blog') }}">Blog</a>
                                             <ul class="dropdwn">
-                                                <li><a href="blog-left-sidebar.html">Dropdown Repeat</a>
+                                                <li><a href="{{ url('/blog-left-sidebar') }}">Dropdown Repeat</a>
                                                     <ul class="dropdwn-repeat">
                                                         <li>
-                                                            <a href="blog.html">Blog</a>
+                                                            <a href="{{ url('/blog') }}">Blog</a>
                                                         </li>
                                                         <li>
                                                             <a href="s">Blog Details</a>
@@ -235,18 +235,18 @@
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="blog.html">Blog</a>
+                                                    <a href="{{ url('/blog') }}">Blog</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single-blog.html">Blog Details</a>
+                                                    <a href="{{ url('/single-blog') }}">Blog Details</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="about.html">About us</a>
+                                            <a href="{{ url('/about') }}">About us</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a href="{{ url('contact') }}">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -274,7 +274,7 @@
                                     <div class="total-cart f-left">
                                         <div class="total-cart-in">
                                             <div class="cart-toggler">
-                                                <a href="#">
+                                                <a href="{{ url('/#') }}">
                                                     <span class="cart-quantity">02</span><br>
                                                     <span class="cart-icon">
                                                         <i class="zmdi zmdi-shopping-cart-plus"></i>
@@ -292,18 +292,18 @@
                                                         <!-- single-cart -->
                                                         <div class="single-cart clearfix">
                                                             <div class="cart-img f-left">
-                                                                <a href="#">
-                                                                    <img src="img/cart/1.jpg" alt="Cart Product" />
+                                                                <a href="{{ url('/#') }}">
+                                                                    <img src="{asset('frontend/img/cart/1.jpg') }}" alt="Cart Product" />
                                                                 </a>
                                                                 <div class="del-icon">
-                                                                    <a href="#">
+                                                                    <a href="{{ url('/#') }}">
                                                                         <i class="zmdi zmdi-close"></i>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="cart-info f-left">
                                                                 <h6 class="text-capitalize">
-                                                                    <a href="#">Dummy Product Name</a>
+                                                                    <a href="{{ url('/#') }}">Dummy Product Name</a>
                                                                 </h6>
                                                                 <p>
                                                                     <span>Brand <strong>:</strong></span>Brand Name
@@ -319,18 +319,18 @@
                                                         <!-- single-cart -->
                                                         <div class="single-cart clearfix">
                                                             <div class="cart-img f-left">
-                                                                <a href="#">
-                                                                    <img src="img/cart/1.jpg" alt="Cart Product" />
+                                                                <a href="{{ url('/#') }}">
+                                                                    <img src="{{ asset('frontend/img/cart/1.jpg') }}" alt="Cart Product" />
                                                                 </a>
                                                                 <div class="del-icon">
-                                                                    <a href="#">
+                                                                    <a href="{{ url('/#') }}">
                                                                         <i class="zmdi zmdi-close"></i>
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="cart-info f-left">
                                                                 <h6 class="text-capitalize">
-                                                                    <a href="#">Dummy Product Name</a>
+                                                                    <a href="{{ url('/#') }}">Dummy Product Name</a>
                                                                 </h6>
                                                                 <p>
                                                                     <span>Brand <strong>:</strong></span>Brand Name
@@ -356,14 +356,14 @@
                                                 <li>
                                                     <div class="top-cart-inner view-cart">
                                                         <h4 class="text-uppercase">
-                                                            <a href="#">View cart</a>
+                                                            <a href="{{ url('/#') }}">View cart</a>
                                                         </h4>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="top-cart-inner check-out">
                                                         <h4 class="text-uppercase">
-                                                            <a href="#">Check out</a>
+                                                            <a href="{{ url('/#') }}">Check out</a>
                                                         </h4>
                                                     </div>
                                                 </li>
@@ -387,58 +387,58 @@
                         <div class="mobile-menu">
                             <nav id="dropdown">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="{{ url('/') }}">Home</a></li>
                                     <li>
-                                        <a href="shop.html">Products</a>
+                                        <a href="{{ url('/shop') }}">Products</a>
                                     </li>
-                                    <li><a href="#">Pages</a>
+                                    <li><a href="{{ url('/#') }}">Pages</a>
                                         <ul>
                                             <li>
-                                                <a href="shop.html">Shop</a>
+                                                <a href="{{ url('/shop') }}">Shop</a>
                                             <li>
-                                                <a href="single-product.html">Single Product</a>
+                                                <a href="{{ url('/single-product') }}">Single Product</a>
                                             </li>
                                             <li>
-                                                <a href="cart.html">Shopping Cart</a>
+                                                <a href="{{ url('/cart') }}">Shopping Cart</a>
                                             </li>
                                             <li>
-                                                <a href="wishlist.html">Wishlist</a>
+                                                <a href="{{ url('/wishlist') }}">Wishlist</a>
                                             </li>
                                             <li>
-                                                <a href="checkout.html">Checkout</a>
+                                                <a href="{{ url('/checkout') }}">Checkout</a>
                                             </li>
                                             <li>
-                                                <a href="order.html">Order</a>
+                                                <a href="{{ url('/order') }}">Order</a>
                                             </li>
                                             <li>
-                                                <a href="login.html">Login</a>
+                                                <a href="{{ url('/login') }}">Login</a>
                                             </li>
                                             <li>
-                                                <a href="My-account.html">My Account</a>
+                                                <a href="{{ url('/My-account') }}">My Account</a>
                                             </li>
                                             <li>
-                                                <a href="about.html">About us</a>
+                                                <a href="{{ url('/about') }}">About us</a>
                                             </li>
                                             <li>
-                                                <a href="404.html">404</a>
+                                                <a href="{{ url('/404') }}" >404</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">Blog</a>
+                                    <li><a href="{{ url('/blog') }}">Blog</a>
                                         <ul>
                                             <li>
-                                                <a href="blog.html">Blog</a>
+                                                <a href="{{ url('/blog') }}">Blog</a>
                                             </li>
                                             <li>
-                                                <a href="single-blog.html">Blog Details</a>
+                                                <a href="{{ url('/single-blog') }}">Blog Details</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="about.html">About Us</a>
+                                        <a href="{{ url('/about') }}">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a href="{{ url('/contact') }}">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -458,7 +458,7 @@
                             <div class="breadcrumbs-inner">
                                 <h1 class="breadcrumbs-title">Login / Register</h1>
                                 <ul class="breadcrumb-list">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="{{ url('/') }}">Home</a></li>
                                     <li>Login / Register</li>
                                 </ul>
                             </div>
