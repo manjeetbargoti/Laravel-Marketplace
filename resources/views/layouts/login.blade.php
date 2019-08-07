@@ -293,7 +293,7 @@
                                                         <div class="single-cart clearfix">
                                                             <div class="cart-img f-left">
                                                                 <a href="{{ url('/#') }}">
-                                                                    <img src="{asset('frontend/img/cart/1.jpg') }}" alt="Cart Product" />
+                                                                    <img src="{{asset('frontend/img/cart/1.jpg') }}" alt="Cart Product" />
                                                                 </a>
                                                                 <div class="del-icon">
                                                                     <a href="{{ url('/#') }}">
@@ -484,7 +484,7 @@
                                         <p>If you have an account with us, Please log in.</p>
                                         <input type="text" name="name" placeholder="Email Address">
                                         <input type="password" name="password" placeholder="Password">
-                                        <p><small><a href="#">Forgot our password?</a></small></p>
+                                        <p><small><a href="{{ url('/#') }}">Forgot our password?</a></small></p>
                                         <button class="submit-btn-1 btn-hover-1" type="submit">login</button>
                                     </div>
                                 </form>
@@ -719,7 +719,7 @@
     <!-- jquery latest version -->
     <script src="{{ asset('frontend/js/vendor/jquery-3.1.1.min.js') }}"></script>
     <!-- Bootstrap framework js -->
-    <script src="{{ asset('frontend/js/bootstrap.min.js' }}"></script>
+    <script src="{{ asset('frontend/js/bootstrap.min.js') }}"></script>
     <!-- jquery.nivo.slider js -->
     <script src="{{ asset('frontend/lib/js/jquery.nivo.slider.js') }}"></script>
     <!-- All js plugins included in this file. -->
