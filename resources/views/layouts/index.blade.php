@@ -447,6 +447,16 @@
         </div>
         <!-- END MOBILE MENU AREA -->
 
+
+        
+
+         <!-- Dynamic Content -->
+            @yield('content')
+         <!-- End Dynamic Content -->
+
+
+
+
         <!-- START SLIDER AREA -->
         <div class="slider-area youtube-bg bg-opacity-black-60 dotted-overlay ptb-150 mb-80">
             <div class="container">
@@ -2429,7 +2439,7 @@
     <!-- jquery latest version -->
     <script src="{{ asset('frontend/js/vendor/jquery-3.1.1.min.js') }}"></script>
     <!-- Bootstrap framework js -->
-    <script src="{{ asset('frontend/js/bootstrap.min.js' }}"></script>
+    <script src="{{ asset('frontend/js/bootstrap.min.js') }}"></script>
     <!-- jquery.nivo.slider js -->
     <script src="{{ asset('frontend/lib/js/jquery.nivo.slider.js') }}"></script>
     <!-- All js plugins included in this file. -->

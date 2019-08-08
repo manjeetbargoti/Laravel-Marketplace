@@ -15,14 +15,19 @@
  return view('welcome');
 });
 */
+
 Route::get('/', function () {
     return view('pages/homepage');
    
 });
 
+Route::get('/index', function () {
+    return view('pages.index');
+   
+});
 
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/about', 'AboutController@index')->name('about');
+
