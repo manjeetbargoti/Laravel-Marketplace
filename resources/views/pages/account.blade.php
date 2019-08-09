@@ -1,4 +1,4 @@
-@extends('layouts.my-account')
+@extends('layouts.account')
 @section('content')
     
         <!-- BREADCRUMBS SETCTION START -->
@@ -34,7 +34,7 @@
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion2" href="#personal_info">My Personal Information</a>
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="{{ url('/#personal_info') }}">My Personal Information</a>
                                         </h4>
                                     </div>
                                     <div id="personal_info" class="panel-collapse collapse in" role="tabpanel">

@@ -1,4 +1,4 @@
-@extends('layouts.index')
+@extends('layouts.about')
 @section('content')
        <!-- BREADCRUMBS SETCTION START -->
        <div class="breadcrumbs-section plr-200 mb-80">

@@ -102,13 +102,13 @@
                                             <!-- product-item start -->
                                             <div class="product-item">
                                                 <div class="product-img">
-                                                    <a href="{{ url('/single-product') }}">
+                                                    <a href="{{ url('/SingleProduct') }}">
                                                         <img src="{{ asset('frontend/img/cart/4.jpg') }}" alt=""/>
                                                     </a>
                                                 </div>
                                                 <div class="product-info">
                                                     <h6 class="product-title multi-line mt-10">
-                                                        <a href="{{ url('/single-product') }}">Dummy Blog Name</a>
+                                                        <a href="{{ url('/SingleProduct') }}">Dummy Blog Name</a>
                                                     </h6>
                                                 </div>
                                             </div>
@@ -116,13 +116,13 @@
                                             <!-- product-item start -->
                                             <div class="product-item">
                                                 <div class="product-img">
-                                                    <a href="{{ url('/single-product') }}">
+                                                    <a href="{{ url('/SingleProduct') }}">
                                                         <img src="{{ asset('frontend/img/cart/5.jpg') }}" alt=""/>
                                                     </a>
                                                 </div>
                                                 <div class="product-info">
                                                     <h6 class="product-title multi-line mt-10">
-                                                        <a href="{{ url('/single-product') }}">Dummy Blog Name</a>
+                                                        <a href="{{ url('/SingleProduct') }}">Dummy Blog Name</a>
                                                     </h6>
                                                 </div>
                                             </div>
@@ -130,13 +130,13 @@
                                             <!-- product-item start -->
                                             <div class="product-item">
                                                 <div class="product-img">
-                                                    <a href="{{ url('/single-product') }}">
+                                                    <a href="{{ url('/SingleProduct') }}">
                                                         <img src="{{asset('frontend/img/cart/6.jpg') }}" alt=""/>
                                                     </a>
                                                 </div>
                                                 <div class="product-info">
                                                     <h6 class="product-title multi-line mt-10">
-                                                        <a href="{{ url('/single-product') }}">Dummy Blog Name</a>
+                                                        <a href="{{ url('/SingleProduct') }}">Dummy Blog Name</a>
                                                     </h6>
                                                 </div>
                                             </div>
@@ -178,7 +178,7 @@
                                     <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/single-blog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
@@ -200,10 +200,10 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/2.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/single-blog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
@@ -225,10 +225,10 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontendimg/blog/3.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/single-blog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
@@ -253,7 +253,7 @@
                                     <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/single-blog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
@@ -278,7 +278,7 @@
                                     <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/single-blog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
@@ -300,10 +300,10 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/6.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/single-blog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
@@ -325,7 +325,7 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/1.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
                                         <a href="{{ asset('frontend/single-blog.html') }}">Read more</a>
@@ -350,10 +350,10 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/7.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/single-blog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
@@ -375,10 +375,10 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/8.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/single-blog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>

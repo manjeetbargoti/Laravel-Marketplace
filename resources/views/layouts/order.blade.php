@@ -56,7 +56,7 @@
                             <div class="top-link clearfix">
                                 <ul class="link f-right">
                                     <li>
-                                        <a href="{{ url('/my-account') }}">
+                                        <a href="{{ url('/account') }}">
                                             <i class="zmdi zmdi-account"></i>
                                             My Account
                                         </a>
@@ -189,7 +189,7 @@
                                                             <a href="{{ url('/shop') }}">Shop</a>
                                                         </li>
                                                         <li>
-                                                            <a href="{{ url('/single-product') }}">Single Product</a>
+                                                            <a href="{{ url('/SingleProduct') }}">Single Product</a>
                                                         </li>
                                                     </ul>
                                                     <ul class="single-mega-item">
@@ -210,13 +210,13 @@
                                                             <a href="{{ url('/login') }}">Login</a>
                                                         </li>
                                                         <li>
-                                                            <a href="{{ url('/My-account') }}">My Account</a>
+                                                            <a href="{{ url('/account') }}">My Account</a>
                                                         </li>
                                                         <li>
                                                             <a href="{{ url('/about') }}">About us</a>
                                                         </li>
                                                         <li>
-                                                            <a href="{{ url('/404') }}">404</a>
+                                                            <a href="{{ url('/error') }}">404</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -238,7 +238,7 @@
                                                     <a href="{{ url('/blog') }}">Blog</a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{ url('/single-blog') }}">Blog Details</a>
+                                                    <a href="{{ url('/SingleBlog') }}">Blog Details</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -396,7 +396,7 @@
                                             <li>
                                                 <a href="{{ url('/shop') }}">Shop</a>
                                             <li>
-                                                <a href="{{ url('/single-product') }}">Single Product</a>
+                                                <a href="{{ url('/SingleProduct') }}">Single Product</a>
                                             </li>
                                             <li>
                                                 <a href="{{ url('/cart') }}">Shopping Cart</a>
@@ -414,13 +414,13 @@
                                                 <a href="{{ url('/login') }}">Login</a>
                                             </li>
                                             <li>
-                                                <a href="{{ url('/My-account') }}">My Account</a>
+                                                <a href="{{ url('/account') }}">My Account</a>
                                             </li>
                                             <li>
                                                 <a href="{{ url('/about') }}">About us</a>
                                             </li>
                                             <li>
-                                                <a href="{{ url('/404') }}">404</a>
+                                                <a href="{{ url('/error') }}">404</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -430,7 +430,7 @@
                                                 <a href="{{ url('/blog') }}">Blog</a>
                                             </li>
                                             <li>
-                                                <a href="{{ url('/single-blog') }}">Blog Details</a>
+                                                <a href="{{ url('/SingleBlog') }}">Blog Details</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -520,7 +520,7 @@
                                         <h4 class="footer-title border-left">my account</h4>
                                         <ul class="footer-menu">
                                             <li>
-                                                <a href="{{ url('/my-account') }}"><i class="zmdi zmdi-circle"></i><span>My Account</span></a>
+                                                <a href="{{ url('/account') }}"><i class="zmdi zmdi-circle"></i><span>My Account</span></a>
                                             </li>
                                             <li>
                                                 <a href="{{ url('/wishlist') }}"><i class="zmdi zmdi-circle"></i><span>My Wishlist</span></a>

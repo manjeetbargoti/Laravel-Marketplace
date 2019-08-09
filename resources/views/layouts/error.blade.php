@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>4in1 Telecom || My Account</title>
+    <title>4in1 Telecom || Error</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/img/icon/favicon.png') }}">
 
-  <!-- All CSS Files -->
+     <!-- All CSS Files -->
     <!-- Bootstrap fremwork main css -->
     <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
     <!-- Nivo-slider css -->
@@ -49,29 +49,20 @@
                     <div class="row">
                         <div class="col-sm-6 hidden-xs">
                             <div class="call-us">
-                                <p class="mb-0 roboto">(+88) 01234-567890</p>
+                                <p class="mb-0 roboto">(+88) 01945 381755</p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-xs-12">
                             <div class="top-link clearfix">
                                 <ul class="link f-right">
                                     <li>
-                                        <a href="{{ url('/my-account') }}">
-                                            <i class="zmdi zmdi-account"></i>
-                                            My Account
-                                        </a>
+                                        <a href="{{ url('/account') }}"><i class="zmdi zmdi-account"></i> My Account</a>
                                     </li>
                                     <li>
-                                        <a href="{{ url('/wishlist') }}">
-                                            <i class="zmdi zmdi-favorite"></i>
-                                            Wish List (0)
-                                        </a>
+                                        <a href="{{ url('/wishlist') }}"><i class="zmdi zmdi-favorite"></i> Wish List (0)</a>
                                     </li>
                                     <li>
-                                        <a href="{{ url('/login') }}">
-                                            <i class="zmdi zmdi-lock"></i>
-                                            Login
-                                        </a>
+                                        <a href="{{ url('/login') }}"><i class="zmdi zmdi-lock"></i> Login</a>
                                     </li>
                                 </ul>
                             </div>
@@ -87,8 +78,8 @@
                             <!-- logo -->
                             <div class="col-md-2 col-sm-6 col-xs-12">
                                 <div class="logo">
-                                    <a href="{{ url('/') }}">
-                                        <img src="{{ asset('frontend/img/logo/logo.png') }}" alt="main logo">
+                                    <a href="{{ url('/#') }} ">
+                                        <img src="{{ asset('fronted/img/logo/logo.png') }}" alt="main logo">
                                     </a>
                                 </div>
                             </div>
@@ -96,8 +87,167 @@
                             <div class="col-md-8 hidden-sm hidden-xs">
                                 <nav id="primary-menu">
                                     <ul class="main-menu text-center">
-                                        <li><a href="{{ url('/') }}">Home</a></li>
-                                        <li class="mega-parent"><a href="{{ url('shop') }}">Products</a>
+                                        <li><a href="{{ url('/') }}">Home</a>
+                                            <ul class="dropdwn">
+                                                <li>
+                                                    <a href="{{ url('/index-1') }}">Home Version 1</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/index-2') }}">Home Version 2</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/index-3') }}">Home Version 3</a>
+                                                </li>
+                                                <li>
+                                                    <a href="index-4.html {{ url('/#') }}">Home 4 Animated Text</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/index-5') }}">Home 5 Animated Text Ovlerlay</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/index-6') }}">Home 6 Background Video</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/index-7') }}">Home 7 BG-Video Ovlerlay</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/index-8') }}">Home 8 Boxed</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/index-9') }}">Home 9 Gradient</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/index-10') }}">Home 10 Boxed-2</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="mega-parent"><a href="{{ url('/#') }}">elements</a>
+                                            <div class="mega-menu-area clearfix">
+                                                <div class="mega-menu-link mega-menu-link-4  f-left">
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">Elements 1</li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-header-1-sticky') }}">header-1-sticky</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-header-1-no-sticky') }}">header-1-no-sticky</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-header-2-sticky') }}">header-2-sticky</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-header-2-no-sticky') }}">header-2-no-sticky</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-footer-1') }}">footer-1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-footer-2') }}">footer-2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/v') }}">footer-3</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-contact-form') }}">Dynamic Contact Form</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-map') }}">Google Map</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">Elements 2</li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-featured-product-1') }}">featured-product-1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-featured-product-2') }}">featured-product-2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-product-tab-1') }}">product-tab-1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-product-tab-2') }}">product-tab-2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-up-comming-product-1') }}">up-comming-product-1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-up-comming-product-2') }}">up-comming-product-2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="elements-single-product.html {{ url('/#') }}">single-product</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-sidebar-left') }}">sidebar-left</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-sidebar-right') }}">sidebar-right</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">Elements 3</li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-section-title') }}">section-title</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-pagination') }}">pagination</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-banner') }}">Banner</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-brands') }}">Brands</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-breadcrumbs') }}">Breadcrumbs</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-newsletter') }}">Newsletter</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-team') }}">team</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-audio') }}">Audio</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-video') }}">Video</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">Elements 4</li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-typography') }}">typography</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-buttons') }}">Buttons</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-call-to-action') }}">Call to Action</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-accordion') }}">Accordion</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-alerts') }}">Alerts</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-progress-bars') }}">progress-bars</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-tab') }}">tab</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-toggles') }}">toggles</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/elements-toggles') }}">toggles</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="mega-parent"><a href="{{ url('/shop') }}">Products</a>
                                             <div class="mega-menu-area clearfix">
                                                 <div class="mega-menu-link f-left">
                                                     <ul class="single-mega-item">
@@ -106,7 +256,7 @@
                                                             <a href="{{ url('/#') }}">All Mobile Phones</a>
                                                         </li>
                                                         <li>
-                                                            <a href="{{ url('/#') }}">Smart phones</a>
+                                                            <a href="#">Smart phones</a>
                                                         </li>
                                                         <li>
                                                             <a href="{{ url('/#') }}">Android Mobiles</a>
@@ -175,7 +325,7 @@
                                                 </div>
                                                 <div class="mega-menu-photo f-left">
                                                     <a href="{{ url('/#') }}">
-                                                        <img src="{{ asset('frontend/img/mega-menu/1.jpg') }}" alt="mega menu image">
+                                                        <img src="{{asset('frontend/img/mega-menu/1.jpg') }}" alt="mega menu image">
                                                     </a>
                                                 </div>
                                             </div>
@@ -189,7 +339,25 @@
                                                             <a href="{{ url('/shop') }}">Shop</a>
                                                         </li>
                                                         <li>
-                                                            <a href="{{ url('/single-product') }}">Single Product</a>
+                                                            <a href="{{ url('/shop-left-sidebar') }}">Shop Left Sidebar</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/shop-right-sidebar') }}">Shop Right Sidebar</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/shop-list') }}">Shop List</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/shop-list-right-sidebar') }}">Shop List Right Sidebar</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/SingleProduct') }}">Single Product</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/single-product-left-sidebar') }}">Single Product Left Sidebar</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ url('/single-product-no-sidebar') }}">Single Product No Sidebar</a>
                                                         </li>
                                                     </ul>
                                                     <ul class="single-mega-item">
@@ -210,13 +378,13 @@
                                                             <a href="{{ url('/login') }}">Login</a>
                                                         </li>
                                                         <li>
-                                                            <a href="{{ url('/My-account') }}">My Account</a>
+                                                            <a href="{{ url('/account') }}">My Account</a>
                                                         </li>
                                                         <li>
                                                             <a href="{{ url('/about') }}">About us</a>
                                                         </li>
                                                         <li>
-                                                            <a href="{{ url('/404') }}">404</a>
+                                                            <a href="{{ url('/"404') }}">404</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -225,20 +393,50 @@
                                         <li><a href="{{ url('/blog') }}">Blog</a>
                                             <ul class="dropdwn">
                                                 <li><a href="{{ url('/blog-left-sidebar') }}">Dropdown Repeat</a>
-                                                    <ul class="dropdwn-repeat">
-                                                        <li>
-                                                            <a href="{{ url('/blog') }}">Blog</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="s">Blog Details</a>
-                                                        </li>
-                                                    </ul>
+													<ul class="dropdwn-repeat">
+														<li>
+															<a href="{{ url('/blog') }}">Blog</a>
+														</li>
+														<li>
+															<a href="{{ url('/blog-left-sidebar') }}">Blog Left Sidebar</a>
+														</li>
+														<li>
+															<a href="{{ url('/blog-right-sidebar') }}">Blog Right Sidebar</a>
+														</li>
+														<li>
+															<a href="{{ url('/blog-2') }}">Blog style 2</a>
+														</li>
+														<li>
+															<a href="{{ url('/blog-2-left-sidebar') }}">Blog 2 Left Sidebar</a>
+														</li>
+														<li>
+															<a href="{{ url('/blog-2-right-sidebar') }}">Blog 2 Right Sidebar</a>
+														</li>
+														<li>
+															<a href="{{ url('/single-blog') }}">Blog Details</a>
+														</li>
+													</ul>
                                                 </li>
                                                 <li>
                                                     <a href="{{ url('/blog') }}">Blog</a>
                                                 </li>
+												<li>
+													<a href="{{ url('/blog-left-sidebar') }}">Blog Left Sidebar</a>
+                                                </li>
                                                 <li>
-                                                    <a href="{{ url('/single-blog') }}">Blog Details</a>
+                                                    <a href="{{ url('/blog-right-sidebar') }}">Blog Right Sidebar</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/blog-2') }}">Blog style 2</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/blog-2-left-sidebar') }}">Blog 2 Left Sidebar</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/blog-2-right-sidebar') }}">Blog 2 Right Sidebar</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/SingleBlog') }}">Blog Details</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -414,13 +612,13 @@
                                                 <a href="{{ url('/login') }}">Login</a>
                                             </li>
                                             <li>
-                                                <a href="{{ url('/My-account') }}">My Account</a>
+                                                <a href="{{ url('/account') }}">My Account</a>
                                             </li>
                                             <li>
                                                 <a href="{{ url('/about') }}">About us</a>
                                             </li>
                                             <li>
-                                                <a href="{{ url('/404') }}">404</a>
+                                                <a href="{{ url('/error') }}">404</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -430,7 +628,7 @@
                                                 <a href="{{ url('/blog') }}">Blog</a>
                                             </li>
                                             <li>
-                                                <a href="{{ url('/single-blog') }}">Blog Details</a>
+                                                <a href="{{ url('/SingleBlog') }}">Blog Details</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -454,151 +652,153 @@
  <!-- End Dynamic Content -->
 
 
-           <!-- START FOOTER AREA -->
-           <footer id="footer" class="footer-area">
-            <div class="footer-top">
-                <div class="container-fluid">
-                    <div class="plr-185">
-                        <div class="footer-top-inner gray-bg">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-5 col-sm-4">
-                                    <div class="single-footer footer-about">
-                                        <div class="footer-logo">
-                                            <img src="{{ asset('frontend/img/logo/logo.png') }}" alt="">
-                                        </div>
-                                        <div class="footer-brief">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the subas industry's standard dummy text ever since the 1500s,</p>
-                                            <p>When an unknown printer took a galley of type and If you are going to use a passage of Lorem Ipsum scrambled it to make.</p>
-                                        </div>
-                                        <ul class="footer-social">
-                                            <li>
-                                                <a class="facebook" href="{{ url('/#') }}" title="Facebook"><i class="zmdi zmdi-facebook"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="google-plus" href="{{ url('/#') }}" title="Google Plus"><i class="zmdi zmdi-google-plus"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="twitter" href="{{ url('/#') }}" title="Twitter"><i class="zmdi zmdi-twitter"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="rss" href="{{ url('/#') }}" title="RSS"><i class="zmdi zmdi-rss"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 hidden-md hidden-sm">
-                                    <div class="single-footer">
-                                        <h4 class="footer-title border-left">Shipping</h4>
-                                        <ul class="footer-menu">
-                                            <li>
-                                                <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>New Products</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Discount Products</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Best Sell Products</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Popular Products</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Manufactirers</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Suppliers</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Special Products</span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-sm-4">
-                                    <div class="single-footer">
-                                        <h4 class="footer-title border-left">my account</h4>
-                                        <ul class="footer-menu">
-                                            <li>
-                                                <a href="{{ url('/my-account') }}"><i class="zmdi zmdi-circle"></i><span>My Account</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/wishlist') }}"><i class="zmdi zmdi-circle"></i><span>My Wishlist</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/cart') }}"><i class="zmdi zmdi-circle"></i><span>My Cart</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/login') }}"><i class="zmdi zmdi-circle"></i><span>Sign In</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/login') }}"><i class="zmdi zmdi-circle"></i><span>Registration</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/checkout') }}"><i class="zmdi zmdi-circle"></i><span>Check out</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="{{ url('/order') }}"><i class="zmdi zmdi-circle"></i><span>Oder Complete</span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4">
-                                    <div class="single-footer">
-                                        <h4 class="footer-title border-left">Get in touch</h4>
-                                        <div class="footer-message">
-                                            <form action="">
-                                                <input type="text" name="name" placeholder="Your name here...">
-                                                <input type="text" name="email" placeholder="Your email here...">
-                                                <textarea class="height-80" name="message" placeholder="Your messege here..."></textarea>
-                                                <button class="submit-btn-1 mt-20 btn-hover-1" type="submit">submit message</button> 
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom black-bg">
-                <div class="container-fluid">
-                    <div class="plr-185">
-                        <div class="copyright">
-                            <div class="row">
-                                <div class="col-sm-6 col-xs-12">
-                                    <div class="copyright-text">
-                                        <p>&copy; <a href="https://4in1telecommunications.com/" target="_blank">Four In One Telecommunications</a> 2020. All Rights Reserved.</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-xs-12">
-                                    <ul class="footer-payment text-right">
-                                        <li>
-                                            <a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/1.jpg') }}" alt=""></a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/2.jpg') }}" alt=""></a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/3.jpg') }}" alt=""></a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/4.jpg') }}" alt=""></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- END FOOTER AREA -->
+ 
 
+             <!-- START FOOTER AREA -->
+             <footer id="footer" class="footer-area">
+                <div class="footer-top">
+                    <div class="container-fluid">
+                        <div class="plr-185">
+                            <div class="footer-top-inner gray-bg">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-5 col-sm-4">
+                                        <div class="single-footer footer-about">
+                                            <div class="footer-logo">
+                                                <img src="{{ asset('frontend/img/logo/logo.png') }}" alt="">
+                                            </div>
+                                            <div class="footer-brief">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the subas industry's standard dummy text ever since the 1500s,</p>
+                                                <p>When an unknown printer took a galley of type and If you are going to use a passage of Lorem Ipsum scrambled it to make.</p>
+                                            </div>
+                                            <ul class="footer-social">
+                                                <li>
+                                                    <a class="facebook" href="{{ url('/#') }}" title="Facebook"><i class="zmdi zmdi-facebook"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a class="google-plus" href="{{ url('/#') }}" title="Google Plus"><i class="zmdi zmdi-google-plus"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a class="twitter" href="{{ url('/#') }}" title="Twitter"><i class="zmdi zmdi-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a class="rss" href="{{ url('/#') }}" title="RSS"><i class="zmdi zmdi-rss"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 hidden-md hidden-sm">
+                                        <div class="single-footer">
+                                            <h4 class="footer-title border-left">Shipping</h4>
+                                            <ul class="footer-menu">
+                                                <li>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>New Products</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Discount Products</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Best Sell Products</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Popular Products</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Manufactirers</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Suppliers</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/#') }}"><i class="zmdi zmdi-circle"></i><span>Special Products</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-3 col-sm-4">
+                                        <div class="single-footer">
+                                            <h4 class="footer-title border-left">my account</h4>
+                                            <ul class="footer-menu">
+                                                <li>
+                                                    <a href="{{ url('/account') }}"><i class="zmdi zmdi-circle"></i><span>My Account</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/wishlist') }}"><i class="zmdi zmdi-circle"></i><span>My Wishlist</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/cart') }}"><i class="zmdi zmdi-circle"></i><span>My Cart</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/login') }}"><i class="zmdi zmdi-circle"></i><span>Sign In</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/login') }}"><i class="zmdi zmdi-circle"></i><span>Registration</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/checkout') }}"><i class="zmdi zmdi-circle"></i><span>Check out</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('/order') }}"><i class="zmdi zmdi-circle"></i><span>Oder Complete</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4">
+                                        <div class="single-footer">
+                                            <h4 class="footer-title border-left">Get in touch</h4>
+                                            <div class="footer-message">
+                                                <form action="">
+                                                    <input type="text" name="name" placeholder="Your name here...">
+                                                    <input type="text" name="email" placeholder="Your email here...">
+                                                    <textarea class="height-80" name="message" placeholder="Your messege here..."></textarea>
+                                                    <button class="submit-btn-1 mt-20 btn-hover-1" type="submit">submit message</button> 
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom black-bg">
+                    <div class="container-fluid">
+                        <div class="plr-185">
+                            <div class="copyright">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-12">
+                                        <div class="copyright-text">
+                                            <p>&copy; <a href="https://4in1telecommunications.com/" target="_blank">Four In One Telecommunications</a> 2020. All Rights Reserved.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-12">
+                                        <ul class="footer-payment text-right">
+                                            <li>
+                                                <a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/1.jpg') }}" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/2.jpg') }}" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/3.jpg') }}" alt=""></a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/4.jpg') }}" alt=""></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- END FOOTER AREA -->
+    
     </div>
     <!-- Body main wrapper end -->
 
 
-      <!-- Placed JS at the end of the document so the pages load faster -->
+    <!-- Placed JS at the end of the document so the pages load faster -->
 
     <!-- jquery latest version -->
     <script src="{{ asset('frontend/js/vendor/jquery-3.1.1.min.js') }}"></script>
@@ -609,7 +809,8 @@
     <!-- All js plugins included in this file. -->
     <script src="{{ asset('frontend/js/plugins.js') }}"></script>
     <!-- Main js file that contents all jQuery plugins activation. -->
-    <script src="{{ asset('frontend/js/main.js') }}"></script>
+    <script src="{{ asset('frontend/js/main.js') }}"></script>   <!-- Placed JS at the end of the document so the pages load faster -->
+    
 </body>
 
 </html>

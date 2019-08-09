@@ -331,13 +331,13 @@
                                     <div class="col-md-4 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="{{ url('/single-product') }}">
+                                                <a href="{{ url('/SingleProduct') }}">
                                                     <img src="{{ asset('frontend/img/product/12.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="{{ url('/single-product') }}">Product Name</a>
+                                                    <a href="{{ url('/SingleProduct') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
                                                     <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
@@ -369,13 +369,13 @@
                                     <div class="col-md-4 col-sm-4 col-xs-12">
                                         <div class="product-item">
                                             <div class="product-img">
-                                                <a href="{{ url('/single-product') }}">
+                                                <a href="{{ url('/SingleProduct') }}">
                                                     <img src="{{ asset('frontend/img/product/12.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <h6 class="product-title">
-                                                    <a href="{{ url('/single-product') }}">Product Name</a>
+                                                    <a href="{{ url('/SingleProduct') }}">Product Name</a>
                                                 </h6>
                                                 <div class="pro-rating">
                                                     <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
@@ -412,14 +412,14 @@
                                     <div class="col-md-12">
                                         <div class="shop-list product-item">
                                             <div class="product-img">
-                                                <a href="{{ url('/single-product') }}">
+                                                <a href="{{ url('/SingleProduct') }}">
                                                     <img src="{{ asset('frontend/img/product/7.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="clearfix">
                                                     <h6 class="product-title f-left">
-                                                        <a href="{{ url('/single-product') }}">Dummy Product Name </a>
+                                                        <a href="{{ url('/SingleProduct') }}">Dummy Product Name </a>
                                                     </h6>
                                                     <div class="pro-rating f-right">
                                                         <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
@@ -454,14 +454,14 @@
                                     <div class="col-md-12">
                                         <div class="shop-list product-item">
                                             <div class="product-img">
-                                                <a href="{{ url('/single-product') }}">
+                                                <a href="{{ url('/SingleProduct') }}">
                                                     <img src="{{ asset('frontend/img/product/10.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="clearfix">
                                                     <h6 class="product-title f-left">
-                                                        <a href="{{ url('/single-product') }}">Dummy Product Name </a>
+                                                        <a href="{{ url('/SingleProduct') }}">Dummy Product Name </a>
                                                     </h6>
                                                     <div class="pro-rating f-right">
                                                         <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
@@ -496,14 +496,14 @@
                                     <div class="col-md-12">
                                         <div class="shop-list product-item">
                                             <div class="product-img">
-                                                <a href="{{ url('/single-product') }}">
+                                                <a href="{{ url('/SingleProduct') }}">
                                                     <img src="{{ asset('frontend/img/product/4.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="clearfix">
                                                     <h6 class="product-title f-left">
-                                                        <a href="{{ url('/single-product') }}">Dummy Product Name </a>
+                                                        <a href="{{ url('/SingleProduct') }}">Dummy Product Name </a>
                                                     </h6>
                                                     <div class="pro-rating f-right">
                                                         <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
@@ -538,7 +538,7 @@
                                     <div class="col-md-12">
                                         <div class="shop-list product-item">
                                             <div class="product-img">
-                                                <a href="{{ url('/single-product') }}">
+                                                <a href="{{ url('/SingleProduct') }}">
                                                     <img src="{{ asset('frontend/img/product/8.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
@@ -580,14 +580,14 @@
                                     <div class="col-md-12">
                                         <div class="shop-list product-item">
                                             <div class="product-img">
-                                                <a href="{{ url('/single-product') }}">
+                                                <a href="{{ url('/SingleProduct') }}">
                                                     <img src="{{ asset('frontend/img/product/2.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="clearfix">
                                                     <h6 class="product-title f-left">
-                                                        <a href="{{ url('/single-product') }}">Dummy Product Name </a>
+                                                        <a href="{{ url('/SingleProduct') }}">Dummy Product Name </a>
                                                     </h6>
                                                     <div class="pro-rating f-right">
                                                         <a href="{{ url('/#') }}"><i class="zmdi zmdi-star"></i></a>
@@ -736,13 +736,13 @@
                         <!-- product-item start -->
                         <div class="product-item">
                             <div class="product-img">
-                                <a href="{{ url('/single-product') }}">
+                                <a href="{{ url('/SingleProduct') }}">
                                     <img src="{{ asset('frontend/img/product/4.jpg') }}" alt=""/>
                                 </a>
                             </div>
                             <div class="product-info">
                                 <h6 class="product-title">
-                                    <a href="{{ url('/single-product') }}">Product Name</a>
+                                    <a href="{{ url('/SingleProduct') }}">Product Name</a>
                                 </h6>
                                 <h3 class="pro-price">$ 869.00</h3>
                             </div>
@@ -751,13 +751,13 @@
                         <!-- product-item start -->
                         <div class="product-item">
                             <div class="product-img">
-                                <a href="{{ url('/single-product') }}">
+                                <a href="{{ url('/SingleProduct') }}">
                                     <img src="{{ asset('frontend/img/product/8.jpg') }}" alt=""/>
                                 </a>
                             </div>
                             <div class="product-info">
                                 <h6 class="product-title">
-                                    <a href="{{ url('/single-product') }}">Product Name</a>
+                                    <a href="{{ url('/SingleProduct') }}">Product Name</a>
                                 </h6>
                                 <h3 class="pro-price">$ 869.00</h3>
                             </div>
@@ -766,13 +766,13 @@
                         <!-- product-item start -->
                         <div class="product-item">
                             <div class="product-img">
-                                <a href="{{ url('/single-product') }}">
+                                <a href="{{ url('/SingleProduct') }}">
                                     <img src="{{ asset('frontend/img/product/12.jpg') }}" alt=""/>
                                 </a>
                             </div>
                             <div class="product-info">
                                 <h6 class="product-title">
-                                    <a href="{{ url('/single-product') }}">Product Name</a>
+                                    <a href="{{ url('/SingleProduct') }}">Product Name</a>
                                 </h6>
                                 <h3 class="pro-price">$ 869.00</h3>
                             </div>

@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>4in1 Telecom || Single Blog</title>
+    <title>4in1 Telecom || Account</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/img/icon/favicon.png') }}">
 
-     <!-- All CSS Files -->
+  <!-- All CSS Files -->
     <!-- Bootstrap fremwork main css -->
     <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
     <!-- Nivo-slider css -->
@@ -56,7 +56,7 @@
                             <div class="top-link clearfix">
                                 <ul class="link f-right">
                                     <li>
-                                        <a href="{{ url('/my-account') }}">
+                                        <a href="{{ url('/account') }}">
                                             <i class="zmdi zmdi-account"></i>
                                             My Account
                                         </a>
@@ -97,7 +97,7 @@
                                 <nav id="primary-menu">
                                     <ul class="main-menu text-center">
                                         <li><a href="{{ url('/') }}">Home</a></li>
-                                        <li class="mega-parent"><a href="{{ url('/shop') }}">Products</a>
+                                        <li class="mega-parent"><a href="{{ url('shop') }}">Products</a>
                                             <div class="mega-menu-area clearfix">
                                                 <div class="mega-menu-link f-left">
                                                     <ul class="single-mega-item">
@@ -189,7 +189,7 @@
                                                             <a href="{{ url('/shop') }}">Shop</a>
                                                         </li>
                                                         <li>
-                                                            <a href="{{ url('/single-product') }}">Single Product</a>
+                                                            <a href="{{ url('/SingleProduct') }}">Single Product</a>
                                                         </li>
                                                     </ul>
                                                     <ul class="single-mega-item">
@@ -210,19 +210,19 @@
                                                             <a href="{{ url('/login') }}">Login</a>
                                                         </li>
                                                         <li>
-                                                            <a href="{{ url('/My-account') }}">My Account</a>
+                                                            <a href="{{ url('/account') }}">My Account</a>
                                                         </li>
                                                         <li>
                                                             <a href="{{ url('/about') }}">About us</a>
                                                         </li>
                                                         <li>
-                                                            <a href="{{ url('/404') }}">404</a>
+                                                            <a href="{{ url('/error') }}">404</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li><a href="blog.html">Blog</a>
+                                        <li><a href="{{ url('/blog') }}">Blog</a>
                                             <ul class="dropdwn">
                                                 <li><a href="{{ url('/blog-left-sidebar') }}">Dropdown Repeat</a>
                                                     <ul class="dropdwn-repeat">
@@ -238,7 +238,7 @@
                                                     <a href="{{ url('/blog') }}">Blog</a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{ url('/single-blog') }}">Blog Details</a>
+                                                    <a href="{{ url('/SingleBlog') }}">Blog Details</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -320,7 +320,7 @@
                                                         <div class="single-cart clearfix">
                                                             <div class="cart-img f-left">
                                                                 <a href="{{ url('/#') }}">
-                                                                <img src="{{ asset('frontend/img/cart/1.jpg') }}" alt="Cart Product" />
+                                                                    <img src="{{ asset('frontend/img/cart/1.jpg') }}" alt="Cart Product" />
                                                                 </a>
                                                                 <div class="del-icon">
                                                                     <a href="{{ url('/#') }}">
@@ -396,7 +396,7 @@
                                             <li>
                                                 <a href="{{ url('/shop') }}">Shop</a>
                                             <li>
-                                                <a href="{{ url('/single-product') }}">Single Product</a>
+                                                <a href="{{ url('/SingleProduct') }}">Single Product</a>
                                             </li>
                                             <li>
                                                 <a href="{{ url('/cart') }}">Shopping Cart</a>
@@ -414,13 +414,13 @@
                                                 <a href="{{ url('/login') }}">Login</a>
                                             </li>
                                             <li>
-                                                <a href="{{ url('/My-account') }}">My Account</a>
+                                                <a href="{{ url('/account') }}">My Account</a>
                                             </li>
                                             <li>
                                                 <a href="{{ url('/about') }}">About us</a>
                                             </li>
                                             <li>
-                                                <a href="{{ url('/404') }}">404</a>
+                                                <a href="{{ url('/error') }}">404</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -430,7 +430,7 @@
                                                 <a href="{{ url('/blog') }}">Blog</a>
                                             </li>
                                             <li>
-                                                <a href="{{ url('/single-blog') }}">Blog Details</a>
+                                                <a href="{{ url('/SingleBlog') }}">Blog Details</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -453,10 +453,9 @@
  @yield('content')
  <!-- End Dynamic Content -->
 
- 
 
-          <!-- START FOOTER AREA -->
-          <footer id="footer" class="footer-area">
+           <!-- START FOOTER AREA -->
+           <footer id="footer" class="footer-area">
             <div class="footer-top">
                 <div class="container-fluid">
                     <div class="plr-185">
@@ -520,7 +519,7 @@
                                         <h4 class="footer-title border-left">my account</h4>
                                         <ul class="footer-menu">
                                             <li>
-                                                <a href="{{ url('/my-account') }}"><i class="zmdi zmdi-circle"></i><span>My Account</span></a>
+                                                <a href="{{ url('/account') }}"><i class="zmdi zmdi-circle"></i><span>My Account</span></a>
                                             </li>
                                             <li>
                                                 <a href="{{ url('/wishlist') }}"><i class="zmdi zmdi-circle"></i><span>My Wishlist</span></a>
@@ -599,7 +598,7 @@
     <!-- Body main wrapper end -->
 
 
-       <!-- Placed JS at the end of the document so the pages load faster -->
+      <!-- Placed JS at the end of the document so the pages load faster -->
 
     <!-- jquery latest version -->
     <script src="{{ asset('frontend/js/vendor/jquery-3.1.1.min.js') }}"></script>
@@ -611,7 +610,6 @@
     <script src="{{ asset('frontend/js/plugins.js') }}"></script>
     <!-- Main js file that contents all jQuery plugins activation. -->
     <script src="{{ asset('frontend/js/main.js') }}"></script>
-
 </body>
 
 </html>

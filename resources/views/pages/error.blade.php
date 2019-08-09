@@ -1,4 +1,4 @@
-@extends('layouts.404')
+@extends('layouts.error')
 
 @section('content')
            <!-- BREADCRUMBS SETCTION START -->
