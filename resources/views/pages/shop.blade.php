@@ -180,7 +180,7 @@
                                         <div class="product-item">
                                             <div class="product-img">
                                                 <a href="{{ url('/single-product') }}">
-                                                    <img src="{{ asset('frontned/img/product/4.jpg') }}" alt=""/>
+                                                    <img src="{{ asset('frontend/img/product/4.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
@@ -332,7 +332,7 @@
                                         <div class="product-item">
                                             <div class="product-img">
                                                 <a href="{{ url('/single-product') }}">
-                                                    <img src="{{ asset('fontend/img/product/12.jpg') }}" alt=""/>
+                                                    <img src="{{ asset('frontend/img/product/12.jpg') }}" alt=""/>
                                                 </a>
                                             </div>
                                             <div class="product-info">
