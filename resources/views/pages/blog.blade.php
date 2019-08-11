@@ -1,8 +1,7 @@
 @extends('layouts.blog')
 @section('content')
-    
-        <!-- BREADCRUMBS SETCTION START -->
-        <div class="breadcrumbs-section plr-200 mb-80">
+       <!-- BREADCRUMBS SETCTION START -->
+       <div class="breadcrumbs-section plr-200 mb-80">
             <div class="breadcrumbs overlay-bg">
                 <div class="container">
                     <div class="row">
@@ -10,7 +9,7 @@
                             <div class="breadcrumbs-inner">
                                 <h1 class="breadcrumbs-title">Blog</h1>
                                 <ul class="breadcrumb-list">
-                                    <li><a href="{{ url('/') }}">Home</a></li>
+                                    <li><a href="{{ url('/index')}}">Home</a></li>
                                     <li>Blog</li>
                                 </ul>
                             </div>
@@ -42,47 +41,47 @@
                                             <h6 class="widget-title border-left mb-20">Categories</h6>
                                             <div id="cat-treeview" class="product-cat">
                                                 <ul>
-                                                    <li class="closed"><a href="{{ url('/#') }}">Brand One</a>
+                                                    <li class="closed"><a href="#">Brand One</a>
                                                         <ul>
-                                                            <li><a href="{{ url('/#') }}">Mobile</a></li>
-                                                            <li><a href="{{ url('/#') }}">Tab</a></li>
-                                                            <li><a href="{{ url('/#') }}">Watch</a></li>
-                                                            <li><a href="{{ url('/#') }}">Head Phone</a></li>
-                                                            <li><a href="{{ url('/#') }}">Memory</a></li>
+                                                            <li><a href="{{ url('/#')}}">Mobile</a></li>
+                                                            <li><a href="{{ url('/#')}}">Tab</a></li>
+                                                            <li><a href="{{ url('/#')}}">Watch</a></li>
+                                                            <li><a href="{{ url('/#')}}">Head Phone</a></li>
+                                                            <li><a href="{{ url('/#')}}">Memory</a></li>
                                                         </ul>
                                                     </li>                                       
-                                                    <li class="open"><a href="{{ url('/#') }}">Brand Two</a>
+                                                    <li class="open"><a href="{{ url('/#')}}">Brand Two</a>
                                                         <ul>
-                                                            <li><a href="{{ url('/#') }}">Mobile</a></li>
-                                                            <li><a href="{{ url('/#') }}">Tab</a></li>
-                                                            <li><a href="{{ url('/#') }}">Watch</a></li>
-                                                            <li><a href="{{ url('/#') }}">Head Phone</a></li>
-                                                            <li><a href="{{ url('/#') }}">Memory</a></li>
+                                                            <li><a href="{{ url('/#')}}">Mobile</a></li>
+                                                            <li><a href="{{ url('/#')}}">Tab</a></li>
+                                                            <li><a href="{{ url('/#')}}">Watch</a></li>
+                                                            <li><a href="{{ url('/#')}}">Head Phone</a></li>
+                                                            <li><a href="{{ url('/#')}}">Memory</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li class="closed"><a href="{{ url('/#') }}">Accessories</a>
+                                                    <li class="closed"><a href="{{ url('/#')}}">Accessories</a>
                                                         <ul>
-                                                            <li><a href="{{ url('/#') }}">Footwear</a></li>
-                                                            <li><a href="{{ url('/#') }}">Sunglasses</a></li>
-                                                            <li><a href="{{ url('/#') }}">Watches</a></li>
-                                                            <li><a href="{{ url('/#') }}">Utilities</a></li>
+                                                            <li><a href="{{ url('/#')}}">Footwear</a></li>
+                                                            <li><a href="{{ url('/#')}}">Sunglasses</a></li>
+                                                            <li><a href="{{ url('/#')}}">Watches</a></li>
+                                                            <li><a href="{{ url('/#')}}">Utilities</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li class="closed"><a href="{{ url('/#') }}">Top Brands</a>
+                                                    <li class="closed"><a href="{{ url('/#')}}">Top Brands</a>
                                                         <ul>
-                                                            <li><a href="{{ url('/#') }}">Mobile</a></li>
-                                                            <li><a href="{{ url('/#') }}">Tab</a></li>
-                                                            <li><a href="{{ url('/#') }}">Watch</a></li>
-                                                            <li><a href="{{ url('/#') }}">Head Phone</a></li>
-                                                            <li><a href="{{ url('/#') }}">Memory</a></li>
+                                                            <li><a href="{{ url('/#')}}">Mobile</a></li>
+                                                            <li><a href="{{ url('/#')}}">Tab</a></li>
+                                                            <li><a href="{{ url('/#')}}">Watch</a></li>
+                                                            <li><a href="{{ url('/#')}}">Head Phone</a></li>
+                                                            <li><a href="{{ url('/#')}}">Memory</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li class="closed"><a href="{{ url('/#') }}">Jewelry</a>
+                                                    <li class="closed"><a href="{{ url('/#')}}">Jewelry</a>
                                                         <ul>
-                                                            <li><a href="{{ url('/#') }}">Footwear</a></li>
-                                                            <li><a href="{{ url('/#') }}">Sunglasses</a></li>
-                                                            <li><a href="{{ url('/#') }}">Watches</a></li>
-                                                            <li><a href="{{ url('/#') }}">Utilities</a></li>
+                                                            <li><a href="{{ url('/#')}}">Footwear</a></li>
+                                                            <li><a href="{{ url('/#')}}">Sunglasses</a></li>
+                                                            <li><a href="{{ url('/#')}}">Watches</a></li>
+                                                            <li><a href="{{ url('/#')}}">Utilities</a></li>
                                                         </ul>
                                                     </li>
                                                 </ul>
@@ -102,13 +101,13 @@
                                             <!-- product-item start -->
                                             <div class="product-item">
                                                 <div class="product-img">
-                                                    <a href="{{ url('/SingleProduct') }}">
+                                                    <a href="{{ url('/SingleProduct')}}">
                                                         <img src="{{ asset('frontend/img/cart/4.jpg') }}" alt=""/>
                                                     </a>
                                                 </div>
                                                 <div class="product-info">
                                                     <h6 class="product-title multi-line mt-10">
-                                                        <a href="{{ url('/SingleProduct') }}">Dummy Blog Name</a>
+                                                        <a href="{{ url('/SingleProduct')}}">Dummy Blog Name</a>
                                                     </h6>
                                                 </div>
                                             </div>
@@ -116,13 +115,13 @@
                                             <!-- product-item start -->
                                             <div class="product-item">
                                                 <div class="product-img">
-                                                    <a href="{{ url('/SingleProduct') }}">
+                                                    <a href="{{ url('/SingleProduct')}}">
                                                         <img src="{{ asset('frontend/img/cart/5.jpg') }}" alt=""/>
                                                     </a>
                                                 </div>
                                                 <div class="product-info">
                                                     <h6 class="product-title multi-line mt-10">
-                                                        <a href="{{ url('/SingleProduct') }}">Dummy Blog Name</a>
+                                                        <a href="{{ url('/SingleProduct')}}">Dummy Blog Name</a>
                                                     </h6>
                                                 </div>
                                             </div>
@@ -130,13 +129,13 @@
                                             <!-- product-item start -->
                                             <div class="product-item">
                                                 <div class="product-img">
-                                                    <a href="{{ url('/SingleProduct') }}">
-                                                        <img src="{{asset('frontend/img/cart/6.jpg') }}" alt=""/>
+                                                    <a href="{{ url('/SingleProduct')}}">
+                                                        <img src="{{ asset('frontend/img/cart/6.jpg') }}" alt=""/>
                                                     </a>
                                                 </div>
                                                 <div class="product-info">
                                                     <h6 class="product-title multi-line mt-10">
-                                                        <a href="{{ url('/SingleProduct') }}">Dummy Blog Name</a>
+                                                        <a href="{{ url('/SingleProduct')}}">Dummy Blog Name</a>
                                                     </h6>
                                                 </div>
                                             </div>
@@ -154,13 +153,13 @@
                                         <aside class="widget widget-tags box-shadow">
                                             <h6 class="widget-title border-left mb-20">Tags</h6>
                                             <ul class="widget-tags-list">
-                                                <li><a href="{{ url('/#') }}">Bleckgerry ios</a></li>
-                                                <li><a href="{{ url('/#') }}">Symban</a></li>
-                                                <li><a href="{{ url('/#') }}">IOS</a></li>
-                                                <li><a href="{{ url('/#') }}">Bleckgerry</a></li>
-                                                <li><a href="{{ url('/#') }}">Windows Phone</a></li>
-                                                <li><a href="{{ url('/#') }}">Windows Phone</a></li>
-                                                <li><a href="{{ url('/#') }}">Androids</a></li>
+                                                <li><a href="{{ url('/#')}}">Bleckgerry ios</a></li>
+                                                <li><a href="{{ url('/#')}}">Symban</a></li>
+                                                <li><a href="{{ url('/#')}}">IOS</a></li>
+                                                <li><a href="{{ url('/#')}}">Bleckgerry</a></li>
+                                                <li><a href="{{ url('/#')}}">Windows Phone</a></li>
+                                                <li><a href="{{ url('/#')}}">Windows Phone</a></li>
+                                                <li><a href="{{ url('/#')}}">Androids</a></li>
                                             </ul>                  
                                         </aside>      
                                     </div>
@@ -175,20 +174,20 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/1.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog')}}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog')}}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-share"></i>29 Share</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-share"></i>29 Share</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -200,20 +199,20 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/2.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog')}}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog')}}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-share"></i>29 Share</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-share"></i>29 Share</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -223,22 +222,22 @@
                         <!-- blog-item start -->
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="blog-item">
-                                <img src="{{ asset('frontendimg/blog/3.jpg') }}" alt="">
+                                <img src="{{ asset('frontend/img/blog/3.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog')}}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog')}}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-share"></i>29 Share</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-share"></i>29 Share</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -250,20 +249,20 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/4.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog')}}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog')}}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-share"></i>29 Share</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-share"></i>29 Share</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -275,20 +274,20 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/5.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/single-blog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog')}}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
+                                        <a href="single-blog.html">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-share"></i>29 Share</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-share"></i>29 Share</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -300,20 +299,20 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/6.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog')}}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog')}}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-share"></i>29 Share</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-share"></i>29 Share</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -325,20 +324,20 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/1.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog')}}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ asset('frontend/single-blog.html') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog')}}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-share"></i>29 Share</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-share"></i>29 Share</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -350,20 +349,20 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/7.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog')}}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog')}}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-share"></i>29 Share</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-share"></i>29 Share</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -375,20 +374,20 @@
                             <div class="blog-item">
                                 <img src="{{ asset('frontend/img/blog/8.jpg') }}" alt="">
                                 <div class="blog-desc">
-                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog') }}">dummy Blog name</a></h5>
+                                    <h5 class="blog-title"><a href="{{ url('/SingleBlog')}}">dummy Blog name</a></h5>
                                     <p>There are many variations of passages of psum available, but the majority have suffered alterat on in some form, by injected humour, randomis words which don't look even slightly.</p>
                                     <div class="read-more">
-                                        <a href="{{ url('/SingleBlog') }}">Read more</a>
+                                        <a href="{{ url('/SingleBlog')}}">Read more</a>
                                     </div>
                                     <ul class="blog-meta">
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-favorite"></i>89 Like</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-comments"></i>59 Comments</a>
                                         </li>
                                         <li>
-                                            <a href="{{ url('/#') }}"><i class="zmdi zmdi-share"></i>29 Share</a>
+                                            <a href="{{ url('/#')}}"><i class="zmdi zmdi-share"></i>29 Share</a>
                                         </li>
                                     </ul>
                                 </div>

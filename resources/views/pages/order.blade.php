@@ -1,7 +1,6 @@
 @extends('layouts.order')
 @section('content')
-    <!-- BREADCRUMBS SETCTION START -->
-    <div class="breadcrumbs-section plr-200 mb-80">
+<div class="breadcrumbs-section plr-200 mb-80">
         <div class="breadcrumbs overlay-bg">
             <div class="container">
                 <div class="row">
@@ -9,7 +8,7 @@
                         <div class="breadcrumbs-inner">
                             <h1 class="breadcrumbs-title">Order</h1>
                             <ul class="breadcrumb-list">
-                                <li><a href="{{ url('/') }}">Home</a></li>
+                                <li><a href="{{ url('/index') }}">Home</a></li>
                                 <li>Order</li>
                             </ul>
                         </div>
@@ -30,25 +29,25 @@
                     <div class="col-md-2">
                         <ul class="cart-tab">
                             <li>
-                                <a class="active" href="{{ url('/#shopping-cart') }}" data-toggle="tab">
+                                <a class="active" href="#shopping-cart" data-toggle="tab">
                                     <span>01</span>
                                     Shopping cart
                                 </a>
                             </li>
                             <li>
-                                <a class="active" href="{{ url('/wishlist') }}" data-toggle="tab">
+                                <a class="active" href="#wishlist" data-toggle="tab">
                                     <span>02</span>
                                     Wishlist
                                 </a>
                             </li>
                             <li>
-                                <a class="active" href="{{ url('/checkout') }}" data-toggle="tab">
+                                <a class="active" href="#checkout" data-toggle="tab">
                                     <span>03</span>
                                     Checkout
                                 </a>
                             </li>
                             <li>
-                                <a class="active" href="{{ url('/#order-complete') }}" data-toggle="tab">
+                                <a class="active" href="#order-complete" data-toggle="tab">
                                     <span>04</span>
                                     Order complete
                                 </a>
@@ -260,7 +259,7 @@
                                                     <tr>
                                                         <td class="product-thumbnail">
                                                             <div class="pro-thumbnail-img">
-                                                                <img src="{{asset('frontend/img/cart/2.jpg') }}" alt="">
+                                                                <img src="{{ asset('frontend/img/cart/2.jpg') }}" alt="">
                                                             </div>
                                                             <div class="pro-thumbnail-info text-left">
                                                                 <h6 class="product-title-2">
@@ -389,7 +388,7 @@
                                                     <div id="accordion">
                                                         <div class="panel">
                                                             <h4 class="payment-title box-shadow">
-                                                                <a data-toggle="collapse" data-parent="#accordion" href="{{ url('/#bank-transfer') }}" >
+                                                                <a data-toggle="collapse" data-parent="#accordion" href="#bank-transfer {{ url('/#bank-transfer') }}" >
                                                                 direct bank transfer
                                                                 </a>
                                                             </h4>
@@ -421,7 +420,7 @@
                                                                 <div class="payment-content">
                                                                     <p>Pay via PayPal; you can pay with your credit card if you don't have a PayPal account.</p>
                                                                     <ul class="payent-type mt-10">
-                                                                        <li><a href="{{ url('/#') }}"><img src="img/payment/1.png" alt=""></a></li>
+                                                                        <li><a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/1.png') }}" alt=""></a></li>
                                                                         <li><a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/2.png') }}" alt=""></a></li>
                                                                         <li><a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/3.png') }}" alt=""></a></li>
                                                                         <li><a href="{{ url('/#') }}"><img src="{{ asset('frontend/img/payment/4.png') }}" alt=""></a></li>

@@ -1,8 +1,8 @@
 @extends('layouts.error')
 
 @section('content')
-           <!-- BREADCRUMBS SETCTION START -->
-           <div class="breadcrumbs-section plr-200 mb-80">
+     <!-- BREADCRUMBS SETCTION START -->
+     <div class="breadcrumbs-section plr-200 mb-80">
             <div class="breadcrumbs overlay-bg">
                 <div class="container">
                     <div class="row">
@@ -11,7 +11,7 @@
                                 <h1 class="breadcrumbs-title">404</h1>
                                 <ul class="breadcrumb-list">
                                     <li>
-                                        <a href="{{ url('/') }}">Home</a>
+                                        <a href="{{ url('/index') }}">Home</a>
                                     </li>
                                     <li>404</li>
                                 </ul>
@@ -34,7 +34,7 @@
                             <div class="error-404 box-shadow">
                                 <img src="{{ asset('frontend/img/others/error.jpg') }}" alt="">
                                 <div class="go-to-btn btn-hover-2">
-                                    <a href="{{ url('/') }}">go to home page</a>
+                                    <a href="{{ url('/index') }}">go to home page</a>
                                 </div>
                             </div>
                         </div>
